@@ -4,5 +4,5 @@ import {
   Button
 } from 'element-ui'
 
-Vue.component(Button.name, Button)
-Vue.component(Input.name, Input)
+Vue.use(Input)
+Vue.use(Button)
